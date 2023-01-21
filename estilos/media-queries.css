@@ -6,4 +6,12 @@
         width: 90vw;
     }
 
+    .concluir-btn {
+        background-color: #469223;
+    }
+
+    .excluir-btn {
+        background-color: #d43838;
+    }
+
 }
