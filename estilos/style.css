@@ -91,11 +91,11 @@ ion-icon {
     padding: 5px 10px;
 }
 
-.concluído-btn {
-    right: 47px;
+.concluir-btn {
+    right: 45px;
 }
 
-.concluído-btn:hover {
+.concluir-btn:hover {
     background-color: #23926d;
     color: #fff;
 }
@@ -112,4 +112,10 @@ ion-icon {
 
 .hide {
     display: none;
+}
+
+#lista-de-tarefas li.done {
+    background-color: #612f7e;
+    color: #fff;
+    text-decoration: line-through;
 }
