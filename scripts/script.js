@@ -1,7 +1,9 @@
+// função de adicionar tarefa
 function addTarefa() {
 
     const tarefaText = document.querySelector("#tarefa-text").value
 
+    // valida se tem algo escrito no input
     if(tarefaText) {
 
         // clona templete
@@ -58,6 +60,7 @@ function concluirTarefa(tarefa) {
 
 }
 
+// evento de adicionar tarefa na lista
 const addBtn = document.querySelector("#add-btn")
 
 addBtn.addEventListener("click", function(e) {

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media (max-width: 520px) {
+    
+    #tarefas-conteiner {
+        width: 90vw;
+    }
+
+}
