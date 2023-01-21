@@ -8,6 +8,17 @@ body {
     padding-top: 30px;
 }
 
+.titulo {
+    background-color: #469223;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-family: cursive;
+    padding: 30px;
+}
+
 #tarefas-conteiner {
     width: 500px;
     margin: 0 auto;
